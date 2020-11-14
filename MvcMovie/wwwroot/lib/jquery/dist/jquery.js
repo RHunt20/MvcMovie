@@ -88,6 +88,7 @@ var isWindow = function isWindow( obj ) {
 
 
 
+
 	var preservedScriptAttributes = {
 		type: true,
 		src: true,
