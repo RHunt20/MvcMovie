@@ -28,6 +28,7 @@ namespace MvcMovie.Migrations
         {
             migrationBuilder.DropTable(
                 name: "Movie");
+
         }
     }
 }

@@ -33,6 +33,7 @@ namespace MvcMovie.Migrations
                 nullable: false,
                 oldClrType: typeof(decimal),
                 oldType: "decimal(18, 2)");
+
         }
     }
 }

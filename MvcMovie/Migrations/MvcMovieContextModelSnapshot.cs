@@ -46,6 +46,7 @@ namespace MvcMovie.Migrations
                     b.ToTable("Movie");
                 });
 #pragma warning restore 612, 618
+
         }
     }
 }
