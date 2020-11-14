@@ -1,10 +1,12 @@
-﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+﻿@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Open+Sans:400,700&display=swap');
+
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
 a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;   
 }
 
 /* Provide sufficient contrast against white background */
@@ -36,10 +38,12 @@ html {
 }
 
 .border-top {
-  border-top: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+    background-color: #2e2c25;
 }
 .border-bottom {
-  border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #2e2c25;
 }
 
 .box-shadow {
@@ -49,6 +53,10 @@ html {
 button.accept-policy {
   font-size: 1rem;
   line-height: inherit;
+}
+
+body {
+    background-color: #F9F0CC
 }
 
 /* Sticky footer styles
@@ -68,4 +76,44 @@ body {
   width: 100%;
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
+}
+
+/*Custom cololrs and fonts*/
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.bg-white {
+    background-color: #2e2c25 !important;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+.text-dark {
+    color: azure !important;
+}
+
+jumbtron img {
+    max-width: 100%;
+    height: auto;
+}
+
+.edit, .details {
+    color: #2DA9B4;
+}
+
+.delete {
+    color: #D93425;
+}
+
+
+h1 {
+    color: #03738C;
+    font-family: "Bebas Neue", cursive;
+}
+
+h2 {
+    color: #F27127;
 }
